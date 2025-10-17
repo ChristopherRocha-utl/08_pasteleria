@@ -1,0 +1,151 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffdfd;
+  color: #5a4b4b;
+}
+.navbar-brand, 
+.hero h1{
+  font-family: 'Dancing Script', cursive;
+  font-style: normal; 
+}
+.logo-titulo {
+  width: 30px;      
+  height: 30px;
+  vertical-align: middle; 
+  margin-right: 8px;     
+}
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+.text-rose { color: #e69ca0; }
+
+.btn-rose {
+  background-color: #e69ca0;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-rose:hover {
+  background-color: #f4b7c8;
+  color: white;
+}
+
+.nav-link {
+  color: #5a4b4b !important;
+  font-weight: 500;
+}
+
+.nav-link:hover { color: #e69ca0 !important; }
+
+.hero {
+  background: url("../images/fantasma pastel.jpg") left center/cover no-repeat;
+  height: 70vh;
+  color: #5a4b4b;
+}
+
+.hero h1 { color: #e69ca0; 
+
+}
+.hero p.lead {
+  color: white;
+}
+.hero .container { text-align: right; }
+
+.carousel-small img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-body p.fw-bold {
+  color: #e69ca0;
+  font-size: 1.05rem;
+  margin-top: 4px;
+}
+
+footer {
+  background-color: #e69ca0;
+  text-align: center;
+}
+
+footer h5, footer p {
+  color: white;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.footer-link:hover { text-decoration: underline; }
+
+footer .social-icons a {
+  color: white;
+  font-size: 1.4rem;
+  transition: 0.3s;
+}
+
+footer .social-icons a:hover { opacity: 0.8; }
+
+.btn-footer {
+  font-size: 1.2rem;
+  padding: 14px 0;
+  border-radius: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-footer:hover {
+  box-shadow: 0 0 15px rgba(255,255,255,0.5);
+  transform: translateY(-2px);
+}
+.promo {
+  background: linear-gradient(135deg, #e69ca0, #f4b7c8);
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  margin: 30px 0;
+}
+
+.promo h2 {
+  font-weight: 600;
+  color: white;
+}
+
+.promo p {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.promo .btn-rose {
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 12px 30px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.promo .btn-rose:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(255,156,160,0.5);
+}
+@media (max-width: 768px) {
+  .hero .container {
+    text-align: center;
+  }
+}
