@@ -44,8 +44,8 @@ body {
 .nav-link:hover { color: #e69ca0 !important; }
 
 .hero {
-  background: url("../images/fantasma pastel.jpg") left center/cover no-repeat;
-  height: 70vh;
+  background: url("../images/imagen de fondo back.png") left center/cover no-repeat;
+  height: 100vh;
   color: #5a4b4b;
 }
 
@@ -58,7 +58,6 @@ body {
 .hero .container { text-align: right; }
 
 .carousel-small img {
-  height: 500px;
   object-fit: cover;
 }
 
@@ -148,4 +147,53 @@ footer .social-icons a:hover { opacity: 0.8; }
   .hero .container {
     text-align: center;
   }
+}
+#promoCarousel .carousel-inner {
+  padding: 20px 0;
+}
+
+#promoCarousel .card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+#promoCarousel .card:hover {
+  transform: translateY(-5px);
+}
+
+#promoCarousel .carousel-control-prev-icon,
+#promoCarousel .carousel-control-next-icon {
+  background-color: #e69ca0;
+  border-radius: 50%;
+  padding: 15px;
+}
+.card-img-top {
+  width: 100%;
+  height: auto; 
+  object-fit: cover; 
+  max-height: 220px;
+  object-position: center; 
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 180px;
+  }
+}
+
+.carousel-inner img {
+  border-radius: 15px; 
+}
+.card-img-top {
+  width: 100%;
+  height: 180px; 
+  object-fit: cover;
+  border-radius: 15px;
 }
